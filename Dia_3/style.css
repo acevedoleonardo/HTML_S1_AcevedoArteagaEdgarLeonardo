@@ -1,0 +1,51 @@
+/* Style = CSS */
+        /*Co
+
+        /* Estilos a nivel de elementos */
+        h1 {
+            color: rgb(16, 17, 20);
+        }        
+        p {
+            color: rgb(28, 28, 37);
+        }
+        .pagina{
+            background-color: rgba(30, 138, 210, 0.345);
+            
+        }
+
+        /* Aca le damos tamaño y forma a la imagen */
+        .Foto_Perfil {
+
+            width: 400px;
+            height: 400px;
+            border-radius: 100%;
+            border: 15px solid black;
+            object-fit: cover;
+            object-position: center;
+
+        }
+        /*Le damos borde a la pagina*/
+        body{
+            border: 5px solid black;
+        }
+        .info {
+
+            display: flex;
+            
+        }
+        .info1{
+            border: 5px solid rgb(24, 24, 27);/*Borde general del cuadro*/
+            margin: 5px 10px; /*Margenes a fuera*/
+            padding: 20px; /*Margenes del cuadro*/
+        }
+        .Columna2{
+            border: 5px solid rgb(24, 24, 27);/*Borde general del cuadro*/
+            margin: 5px 10px; /*Margenes a fuera*/
+            padding: 20px; /*Margenes del cuadro*/
+        }
+        
+        .habilidades {
+            border: 5px solid rgb(24, 24, 27);/*Borde general del cuadro*/
+            margin: 5px 10px; /*Margenes a fuera*/
+            padding: 20px; /*Margenes del cuadro*/
+        }
