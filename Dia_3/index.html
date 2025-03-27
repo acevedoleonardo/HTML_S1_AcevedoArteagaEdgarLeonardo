@@ -15,13 +15,15 @@
 </head>
 <!-- Aca va el cuerpo de la pagina, va toda la estructura de la pag-->
 <body>
-    <div>
+    <div class="Pagina_completa">
         <div class="titulo">
             <h1>Hoja de Vida</h1>
             <!-- Se Crea una division y adiciona se define como una clase para darle atributos especificos -->
         </div><!--Se cierra el div del titulo-->
-        <div>
-            <img src="Foto_Perfil.jpg" alt="Foto_Perfil" class="Foto_Perfil">    
+        <div class="container_1">
+            <div id="foto">
+            <img src="Foto_Perfil.jpg" alt="Foto_Perfil" class="Foto_Perfil">  
+            </div>  
             <div class="informacion_personal">
                 <h2>Informacion Personal</h2>
                 <h3>Nombre</h3> 
@@ -36,6 +38,7 @@
                 <li>https://www.linkedin.com/in/edgar-leonardo-acevedo-arteaga/ </li>       
             </div> <!--Aca se cierra informacion_personal-->
         </div> <!--Este cierra el div de la imagen y informacion personal-->
+    <div class="container_2">
         <div class="informacion_academica">            
             <h2>Informacion Academica</h2>
             <h3>Basica Primaria</h3> 
@@ -60,13 +63,23 @@
                 <li>Manejo de Lunux - Nivel Basico.</li>
                 <li>Menejo de Windows - Nivel Basico</li>       
         </div><!--Se cierra el div de habilidades--> 
+    </div><!--El Div mas grande abarca los dos div de Info Academica y Habilidades-->
+    <div>   
         <div class="Experiencia_laboral">
-            <h2>Experiencia Laboral</h2>
+            <h2>Proyectos Personales</h2>
+            <p> En Contrucción... </p>
+            <h2>Proyectos Empresariales</h2>
             <p>Mi experiencia Laboral va afianzandose en la parte academica.     
                 Campuslands Enero 2025 - Actualidad. 
             </p>
-        </div><!--Se cierra el div de Experiencia Laboral-->    
+            <h2>Contactos</h2>
+            <li>Maria Fernanda Florez<br>
+                Email: mariafflorez27@gmail.com<br>
+                Telefono: 350-494.58.70 </li>
+            </div><!--Se cierra el div de Experiencia Laboral-->    
+        </div> 
     </div>
+
 </body>
 </html>
 
