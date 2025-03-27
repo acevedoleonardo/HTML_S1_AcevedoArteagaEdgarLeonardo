@@ -2,9 +2,8 @@
 
 # Habilidades aplicadas 
 
-- Tablas 
 - Listas  
-- Citas 
+
 
 
 # Hoja de Vida
